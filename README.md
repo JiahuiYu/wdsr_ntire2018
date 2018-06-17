@@ -5,7 +5,7 @@ By [Jiahui Yu](http://jiahuiyu.com/)<sup>1</sup>, Yuchen Fan<sup>1</sup>, Jianch
 <sup>
 [1] University of Illinois at Urbana-Champaign,
 [2] Snap Inc.,
-[3] Adobe Research and
+[3] Adobe Research,
 [4] Stevens Institute of Technology
 </sup>
 
@@ -17,9 +17,9 @@ By [Jiahui Yu](http://jiahuiyu.com/)<sup>1</sup>, Yuchen Fan<sup>1</sup>, Jianch
 | Network | Parameters | DIV2K (val) PSNR |
 | - | - | - |
 | EDSR Baseline | 1,372,318 | 34.61 |
-| WDSR Baseline | **1,190,100** | **35.77** |
+| WDSR Baseline | **1,190,100** | **34.77** |
 
-We measured PSNR using DIV2K 0801 ~ 0900 (trained on 0000 ~ 0800), RGB channels, without self-ensemble which is identical to [EDSR baseline model settings](https://github.com/thstkdgus35/EDSR-PyTorch). Both baseline models have 16 residual blocks.
+We measured PSNR using DIV2K 0801 ~ 0900 (trained on 0000 ~ 0800) on RGB channels without self-ensemble which is identical to [EDSR baseline model settings](https://github.com/thstkdgus35/EDSR-PyTorch). Both baseline models have 16 residual blocks.
 
 More results:
 
@@ -39,4 +39,4 @@ Left: vanilla residual block in EDSR. Middle: **wide activation**. Right: **wide
 
 <img src="https://user-images.githubusercontent.com/22609465/41505052-be6ac920-71b4-11e8-8433-e6736364a29e.png"  width=48%/> <img src="https://user-images.githubusercontent.com/22609465/41505053-be911a8a-71b4-11e8-9da4-b34a7ac598f4.png"   width=48%/>
 
-Training L1 loss and validation PSNR with weight normalization, batch normalization or no normalization. Training with weight normalization has better performance.
+Training loss and validation PSNR with weight normalization, batch normalization or no normalization. Training with weight normalization has better performance.
