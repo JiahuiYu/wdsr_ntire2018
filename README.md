@@ -1,15 +1,6 @@
 # Wide Activation for Efficient and Accurate Image Super-Resolution
 
-By [Jiahui Yu](http://jiahuiyu.com/)<sup>1</sup>, Yuchen Fan<sup>1</sup>, Jianchao Yang<sup>2</sup>, Ning Xu<sup>2</sup>, Zhaowen Wang<sup>3</sup>, Xinchao Wang<sup>4</sup>, Thomas S. Huang<sup>1</sup>
-
-<sup>
-[1] University of Illinois at Urbana-Champaign,
-[2] Snap Inc.,
-[3] Adobe Research,
-[4] Stevens Institute of Technology
-</sup>
-
-| [Report](TODO) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing) |
+[Report](TODO) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing) |
 
 ## Run
 
@@ -52,7 +43,7 @@ Training loss and validation PSNR with weight normalization, batch normalization
 
 
 ## Citing
-Please consider cite WDSR for image compression first if you find it helpful.
+Please consider cite WDSR for image super-resolution and compression if you find it helpful.
 ```
 @article{yu2018wide,
   title={Wide Activation for Efficient and Accurate Image Super-Resolution},
@@ -61,6 +52,9 @@ Please consider cite WDSR for image compression first if you find it helpful.
 
 @inproceedings{fan2018wide,
   title={Wide-activated Deep Residual Networks based Restoration for BPG-compressed Images},
-  author={Fan, Yuchen and Yu, Jiahui and Huang, Thomas S}
+  author={Fan, Yuchen and Yu, Jiahui and Huang, Thomas S},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={2621--2624},
+  year={2018}
 }
 ```
