@@ -9,10 +9,17 @@ By [Jiahui Yu](http://jiahuiyu.com/)<sup>1</sup>, Yuchen Fan<sup>1</sup>, Jianch
 [4] Stevens Institute of Technology
 </sup>
 
-[Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing) |
+| [Report](TODO) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing) |
 
-## Code and tech report with more details will be available soon. Please stay tuned.
+## Run
 
+0. Requirements:
+    * Install [PyTorch](https://pytorch.org/) (tested on release 0.4.0 and 0.4.1).
+    * Clone [EDSR-Pytorch](https://github.com/thstkdgus35/EDSR-PyTorch/tree/95f0571aa74ddf9dd01ff093081916d6f17d53f9) as backbone training framework.
+1. Training and Validation:
+    * Copy [wdsr_a.py](/wdsr_a.py), [wdsr_b.py](/wdsr_b.py) into `EDSR-PyTorch/src/model/`.
+    * Modify `EDSR-PyTorch/src/option.py` and `EDSR-PyTorch/src/demo.sh` to support `--n_feats, --block_feats` option.
+    * Launch training with [EDSR-Pytorch](https://github.com/thstkdgus35/EDSR-PyTorch/tree/95f0571aa74ddf9dd01ff093081916d6f17d53f9) as backbone training framework.
 
 ## Overall Performance
 
@@ -51,6 +58,7 @@ Please consider cite WDSR for image compression first if you find it helpful.
   title={Wide Activation for Efficient and Accurate Image Super-Resolution},
   author={Yu, Jiahui and Fan, Yuchen and Yang, Jianchao and Xu, Ning and Wang, Xinchao and Huang, Thomas S}
 }
+
 @inproceedings{fan2018wide,
   title={Wide-activated Deep Residual Networks based Restoration for BPG-compressed Images},
   author={Fan, Yuchen and Yu, Jiahui and Huang, Thomas S}
