@@ -1,6 +1,6 @@
 # Wide Activation for Efficient and Accurate Image Super-Resolution
 
-[Report](TODO) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing)
+[Report](https://arxiv.org/abs/1808.08718) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing)
 
 ## Run
 
@@ -47,7 +47,9 @@ Please consider cite WDSR for image super-resolution and compression if you find
 ```
 @article{yu2018wide,
   title={Wide Activation for Efficient and Accurate Image Super-Resolution},
-  author={Yu, Jiahui and Fan, Yuchen and Yang, Jianchao and Xu, Ning and Wang, Xinchao and Huang, Thomas S}
+  author={Yu, Jiahui and Fan, Yuchen and Yang, Jianchao and Xu, Ning and Wang, Xinchao and Huang, Thomas S},
+  journal={arXiv preprint arXiv:1808.08718},
+  year={2018}
 }
 
 @inproceedings{fan2018wide,
