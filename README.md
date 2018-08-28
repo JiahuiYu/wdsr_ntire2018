@@ -1,18 +1,16 @@
 # Wide Activation for Efficient and Accurate Image Super-Resolution
 
-By [Jiahui Yu](http://jiahuiyu.com/)<sup>1</sup>, Yuchen Fan<sup>1</sup>, Jianchao Yang<sup>2</sup>, Ning Xu<sup>2</sup>, Zhaowen Wang<sup>3</sup>, Xinchao Wang<sup>4</sup>, Thomas S. Huang<sup>1</sup>
+[Report](https://arxiv.org/abs/1808.08718) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing)
 
-<sup>
-[1] University of Illinois at Urbana-Champaign,
-[2] Snap Inc.,
-[3] Adobe Research,
-[4] Stevens Institute of Technology
-</sup>
+## Run
 
-[Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing) |
-
-## Code and tech report with more details will be available soon. Please stay tuned.
-
+0. Requirements:
+    * Install [PyTorch](https://pytorch.org/) (tested on release 0.4.0 and 0.4.1).
+    * Clone [EDSR-Pytorch](https://github.com/thstkdgus35/EDSR-PyTorch/tree/95f0571aa74ddf9dd01ff093081916d6f17d53f9) as backbone training framework.
+1. Training and Validation:
+    * Copy [wdsr_a.py](/wdsr_a.py), [wdsr_b.py](/wdsr_b.py) into `EDSR-PyTorch/src/model/`.
+    * Modify `EDSR-PyTorch/src/option.py` and `EDSR-PyTorch/src/demo.sh` to support `--n_feats, --block_feats` option.
+    * Launch training with [EDSR-Pytorch](https://github.com/thstkdgus35/EDSR-PyTorch/tree/95f0571aa74ddf9dd01ff093081916d6f17d53f9) as backbone training framework.
 
 ## Overall Performance
 
@@ -45,14 +43,20 @@ Training loss and validation PSNR with weight normalization, batch normalization
 
 
 ## Citing
-Please consider cite WDSR for image compression first if you find it helpful.
+Please consider cite WDSR for image super-resolution and compression if you find it helpful.
 ```
 @article{yu2018wide,
   title={Wide Activation for Efficient and Accurate Image Super-Resolution},
-  author={Yu, Jiahui and Fan, Yuchen and Yang, Jianchao and Xu, Ning and Wang, Xinchao and Huang, Thomas S}
+  author={Yu, Jiahui and Fan, Yuchen and Yang, Jianchao and Xu, Ning and Wang, Xinchao and Huang, Thomas S},
+  journal={arXiv preprint arXiv:1808.08718},
+  year={2018}
 }
+
 @inproceedings{fan2018wide,
   title={Wide-activated Deep Residual Networks based Restoration for BPG-compressed Images},
-  author={Fan, Yuchen and Yu, Jiahui and Huang, Thomas S}
+  author={Fan, Yuchen and Yu, Jiahui and Huang, Thomas S},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={2621--2624},
+  year={2018}
 }
 ```
