@@ -1,6 +1,6 @@
 # Wide Activation for Efficient and Accurate Image Super-Resolution
 
-[Tech Report](https://arxiv.org/abs/1808.08718) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing) | [Other Implementations](#other-implementations)
+[Tech Report](https://arxiv.org/abs/1808.08718) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Other Implementations](#other-implementations) | [Bibtex](#citing) 
 
 ## Run
 
