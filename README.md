@@ -1,6 +1,6 @@
 # Wide Activation for Efficient and Accurate Image Super-Resolution
 
-[Tech Report](https://arxiv.org/abs/1808.08718) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing)
+[Tech Report](https://arxiv.org/abs/1808.08718) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Bibtex](#citing) | [Other Implementations](#other-implementations)
 
 ## Run
 
@@ -40,6 +40,10 @@ Left: vanilla residual block in EDSR. Middle: **wide activation**. Right: **wide
 <img src="https://user-images.githubusercontent.com/22609465/41505052-be6ac920-71b4-11e8-8433-e6736364a29e.png"  width=48%/> <img src="https://user-images.githubusercontent.com/22609465/41505053-be911a8a-71b4-11e8-9da4-b34a7ac598f4.png"   width=48%/>
 
 Training loss and validation PSNR with weight normalization, batch normalization or no normalization. Training with weight normalization has faster convergence and better accuracy.
+
+## Other Implementations
+
+- [Keras-WDSR](https://github.com/krasserm/wdsr) By [Martin Krasser](https://github.com/krasserm)
 
 
 ## Citing
