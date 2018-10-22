@@ -1,6 +1,8 @@
 # Wide Activation for Efficient and Accurate Image Super-Resolution
 
-[Tech Report](https://arxiv.org/abs/1808.08718) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [Other Implementations](#other-implementations) | [Bibtex](#citing) 
+[Tech Report](https://arxiv.org/abs/1808.08718) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [TensorFlow](https://github.com/ychfan/tf_estimator_barebone/blob/master/docs/super_resolution.md) | [Other Implementations](#other-implementations) | [Bibtex](#citing) 
+
+**Update (Oct, 2018)**: We have re-implemented [WDSR on TensorFlow](https://github.com/ychfan/tf_estimator_barebone/blob/master/docs/super_resolution.md) for end-to-end training and testing. Pre-trained models are released. The runtime speed of [weight normalization on tensorflow](https://github.com/ychfan/tf_estimator_barebone/blob/master/common/layers.py) is also optimized.
 
 ## Run
 
@@ -43,6 +45,7 @@ Training loss and validation PSNR with weight normalization, batch normalization
 
 ## Other Implementations
 
+- [TensorFlow-WDSR](https://github.com/ychfan/tf_estimator_barebone/blob/master/docs/super_resolution.md) (official) 
 - [Keras-WDSR](https://github.com/krasserm/wdsr) By [Martin Krasser](https://github.com/krasserm)
 
 
