@@ -11,8 +11,10 @@
     * Clone [EDSR-Pytorch](https://github.com/thstkdgus35/EDSR-PyTorch/tree/95f0571aa74ddf9dd01ff093081916d6f17d53f9) as backbone training framework.
 1. Training and Validation:
     * Copy [wdsr_a.py](/wdsr_a.py), [wdsr_b.py](/wdsr_b.py) into `EDSR-PyTorch/src/model/`.
-    * Modify `EDSR-PyTorch/src/option.py` and `EDSR-PyTorch/src/demo.sh` to support `--n_feats, --block_feats` option.
+    * Modify `EDSR-PyTorch/src/option.py` and `EDSR-PyTorch/src/demo.sh` to support `--n_feats, --block_feats, --[r,g,b]_mean` option (please find reference in issue [#7](https://github.com/JiahuiYu/wdsr_ntire2018/issues/7), [#8](https://github.com/JiahuiYu/wdsr_ntire2018/issues/8)).
     * Launch training with [EDSR-Pytorch](https://github.com/thstkdgus35/EDSR-PyTorch/tree/95f0571aa74ddf9dd01ff093081916d6f17d53f9) as backbone training framework.
+2. Still have questions?
+    * If you still have questions, please first search over closed issues. If the problem is not solved, please open a new issue.
 
 ## Overall Performance
 
