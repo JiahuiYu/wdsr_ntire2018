@@ -23,7 +23,7 @@
 | EDSR Baseline | 1,372,318 | 34.61 |
 | WDSR Baseline | **1,190,100** | **34.77** |
 
-We measured PSNR using DIV2K 0801 ~ 0900 (trained on 0000 ~ 0800) on RGB channels without self-ensemble which is identical to [EDSR baseline model settings](https://github.com/thstkdgus35/EDSR-PyTorch). Both baseline models have 16 residual blocks.
+We measured PSNR using DIV2K 0801 ~ 0900 (trained on 0000 ~ 0800) on RGB channels without self-ensemble. Both baseline models have 16 residual blocks.
 
 More results:
 
@@ -31,7 +31,7 @@ More results:
 
 <table><tr><th>Number of Residual Blocks</th><th colspan="3">5</th><th colspan="3">8</th></tr><tr><td>SR Network</td><td>EDSR</td><td>WDSR-A</td><td>WDSR-B</td><td>EDSR</td><td>WDSR-A</td><td>WDSR-B</td></tr><tr><td>Parameters</td><td>5.6M</td><td><strong>3.7M</strong></td><td><strong>3.7M</strong></td><td>7.8M</td><td><strong>6.0M</strong></td><td><strong>6.0M</strong></td></tr><tr><td>DIV2K (val) PSNR</td><td>34.284</td><td><strong>34.388</strong></td><td><strong>34.409</strong></td><td>34.457</td><td><strong>34.541</strong></td><td><strong>34.536</strong></td></tr></table>
 
-Comparisons of <a href="https://arxiv.org/abs/1707.02921">EDSR</a> and our proposed WDSR-A, WDSR-B for image bicubic x2 super-resolution on DIV2K dataset.
+Comparisons of <a href="https://arxiv.org/abs/1707.02921">EDSR</a> and our proposed WDSR-A, WDSR-B using identical settings to [EDSR baseline model](https://github.com/thstkdgus35/EDSR-PyTorch) for image bicubic x2 super-resolution on DIV2K dataset.
 
 ## WDSR Network Architecture
 
