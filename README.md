@@ -2,6 +2,8 @@
 
 [Tech Report](https://arxiv.org/abs/1808.08718) | [Approach](#wdsr-network-architecture) | [Results](#overall-performance) | [TensorFlow](https://github.com/ychfan/tf_estimator_barebone/blob/master/docs/super_resolution.md) | [Other Implementations](#other-implementations) | [Bibtex](#citing) 
 
+**Update (Apr, 2020)**: We have released a [reloaded version](https://github.com/ychfan/wdsr) with full training scripts in PyTorch and pre-trained models.
+
 **Update (Oct, 2018)**: We have re-implemented [WDSR on TensorFlow](https://github.com/ychfan/tf_estimator_barebone/blob/master/docs/super_resolution.md) for end-to-end training and testing. Pre-trained models are released. The runtime speed of [weight normalization on tensorflow](https://github.com/ychfan/tf_estimator_barebone/blob/master/common/layers.py) is also optimized.
 
 ## Run
